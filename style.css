@@ -11,9 +11,29 @@ Version:        0.1.0
 @import url("../responsive/style.css");
 
 .menu {
-	background-color: 				#585858;
+	background-color: 				#2CC0C1;
+	border-radius: 					3px;
+	border: 						1px solid #26ACAD;
+	box-shadow: 					inset 0px 1px 0px #8DD4D5;
+	background-image:				none;
 	clear: 							both;
 	margin: 						0 auto;
+}
+.menu a:hover {
+	background-color:				#27B3B4;
+	box-shadow: 					inset 0px 1px 0px #8DD4D5;
+	background-image: 				none;
+	color:							#fff;
+}
+.menu a {
+	border-left: 					1px solid #1f9fa0;
+	box-shadow: 					-1px 0px 1px #5ECDCE;
+}
+.menu > li:first-child > a {
+	box-shadow:						none;
+}
+.menu .current_page_item a {
+	background-color:				#343434;
 }
 /* - - - - - - HEADER */
 .site-name {
