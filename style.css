@@ -32,9 +32,14 @@ Version:        0.1.0
 .menu > li:first-child > a {
 	box-shadow:						none;
 }
-.menu .current_page_item a {
-	background-color:				#343434;
+.menu > li:first-child > a:hover {
+	box-shadow:						inset 0px 1px 0px #8DD4D5;
 }
+.menu .current_page_item a {
+	background-color:				#27B3B4;
+	box-shadow:						inset 0px 1px 0px #8DD4D5;
+}
+
 /* - - - - - - HEADER */
 .site-name {
 	padding: 						50px 0 0 10px;
@@ -53,3 +58,13 @@ Version:        0.1.0
 	font-family: 					verdana;
 	color: 							#919191;
 }
+/* - - - - -  WIDGET */
+.widget-wrapper {
+-webkit-border-radius: 				2px;
+-moz-border-radius: 				2px;
+background-color:					#F9F9F9;
+border: 							1px solid ##E6E6E6;
+border-radius: 						2px;
+font-size: 							13px;
+margin: 							0 0 20px;
+padding: 							20px;
