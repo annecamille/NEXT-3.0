@@ -12,45 +12,27 @@ if ( !defined('ABSPATH')) exit;
             
             <?php if (!dynamic_sidebar('Content home top')) : ?>
 
-			<div class="grid col-140">
-				<a href="#">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook-grande-icon.jpg" width="138px" height="100px" alt="Facebook">
-					 <strong>Fan page</strong>
-				</a>
-			</div>
-
-			<div class="grid col-140">
-				<a href="#">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/wikipedia-grande-icon.jpg" width="138" height="100" alt="Wikipedia">
-					 <strong>Wiki do NEXT</strong>
-				</a>
-			</div>
-
-			<div class="grid col-140">
-				<a href="#">
-					<img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/youtube-grande-icon.jpg" width="138" height="100" alt="Youtube">
-					<strong>Canal do NEXT</strong>
-				</a>
-			</div>
-			
-			<div class="grid col-140">
+			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook-grande-icon.jpg" width="138" height="100" alt="Twitter">
-					 <strong>Fan page</strong>
+					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook">
 				</div>
 			</div>
 			
-			<div class="grid col-140">
+			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook-grande-icon.jpg" width="138" height="100" alt="Twitter">
-					 <strong>Fan page</strong>
+					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/youtube.jpg" alt="Youtube" title="Youtube">
 				</div>
 			</div>
 			
-			<div class="grid col-140 fit">
+			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook-grande-icon.jpg" width="138" height="100" alt="Twitter">
-					 <strong>Fan page</strong>
+					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/wikipedia.jpg" alt="Wikipedia" title="Wikipédia">
+				</div>
+			</div>
+			
+			<div class="grid col-220 fit">
+				<div class="widget-wrapper">
+					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook">
 				</div>
 			</div>
 			<?php endif; //end of main-sidebar ?>
