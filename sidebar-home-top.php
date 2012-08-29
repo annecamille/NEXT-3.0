@@ -14,25 +14,25 @@ if ( !defined('ABSPATH')) exit;
 
 			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook">
+					<a href="#"> <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook"></a>
 				</div>
 			</div>
 			
 			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/youtube.jpg" alt="Youtube" title="Youtube">
+					<a href="#"> <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/youtube.jpg" alt="Youtube" title="Youtube"></a>
 				</div>
 			</div>
 			
 			<div class="grid col-220">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/wikipedia.jpg" alt="Wikipedia" title="Wikipédia">
+					<a href="#"> <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/wikipedia.jpg" alt="Wikipedia" title="Wikipédia"></a>
 				</div>
 			</div>
 			
 			<div class="grid col-220 fit">
 				<div class="widget-wrapper">
-					 <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook">
+					<a href="#"> <img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook"></a>
 				</div>
 			</div>
 			<?php endif; //end of main-sidebar ?>
