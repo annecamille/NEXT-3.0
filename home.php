@@ -11,9 +11,6 @@ if ( !defined('ABSPATH')) exit;
 ?>
 <?php get_header(); ?>
 
-		<?php get_sidebar('home-top'); ?>
-
-		<?php get_sidebar('home'); ?>
 		
 <?php if (have_posts()) : ?>
 
