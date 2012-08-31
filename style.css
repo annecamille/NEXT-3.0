@@ -10,6 +10,9 @@ Version:        0.1.0
 
 @import url("../responsive/style.css");
 
+a {
+	color:							#1BB8B9;
+}
 #wrapper {
 	border:none;
 	padding: 0;
