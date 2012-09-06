@@ -18,23 +18,22 @@ a {
 	padding: 0;
 }
 .menu {
-	background-color: 				#2CC0C1;
-	border-radius: 					3px;
-	border: 						1px solid #26ACAD;
-	box-shadow: 					inset 0px 1px 0px #8DD4D5;
-	background-image:				none;
-	clear: 							both;
-	margin: 						0 auto;
+	background:		 				#2CC0C1 url('images/bg-menu.jpg') repeat-x;
+	border-top:						1px solid #26ACAD;
+	border-bottom:					1px solid #26ACAD;
+	clear: 							none;
+	margin: 						11px auto 0 auto;
+	height: 						43px;
+	width: 							98%;
+	float: 							left;
 }
 .menu a:hover {
-	background-color:				#27B3B4;
-	box-shadow: 					inset 0px 1px 0px #8DD4D5;
+	background-color:				transparent;
 	background-image: 				none;
 	color:							#fff;
 }
 .menu a {
-	border-left: 					1px solid #1f9fa0;
-	box-shadow: 					-1px 0px 1px #5ECDCE;
+	border-left:					none;
 }
 .menu > li:first-child > a {
 	box-shadow:						none;
@@ -132,7 +131,7 @@ h4 {
 	text-shadow:					1px 1px 0 rgb(0,0,0);
 }
 .mosaic-block {
-	float:left;
+	float:							left;
 	position:relative;
 	overflow:hidden;
 	width:400px;
@@ -140,18 +139,20 @@ h4 {
 	margin:10px;
 	background:#111;
 	border:1px solid #fff;
-	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow:				0 1px 3px rgba(0,0,0,0.5);
 }
 
 .mosaic-backdrop {
-	display:none;
-	position:absolute;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#111;
+	display:						none;
+	position:						absolute;
+	top:							0;
+	height:							100%;
+	width:							100%;
+	background:						#111;
 }
-	
+.clr {
+	clear: both;
+}
 .mosaic-overlay {
 	display:none;
 	z-index:5;
@@ -160,14 +161,17 @@ h4 {
 	height:100%;
 	background:#111;
 }
-#img-menu {
+div.menu-l {
+	border:							0px solid #000;
+	width: 5px;
+	height: 66px;
 	float: left;
-	width:	100%;
-	height:	10px;
-	border: 1px solid #000;
-	margin-left: -65px;
-		padding-right: 130px;
+	background: url('images/lado-menu.jpg');
 }
-#img-menu img {
-
+div.menu-r {
+	border:							0px solid #000;
+	width: 							5px;
+	height: 						66px;
+	float: 							left;
+	background: 					url('images/lado-menu.jpg') 0 66px;
 }

@@ -71,14 +71,14 @@ if ( !defined('ABSPATH')) exit;
         <div id="logo">
             <span class="site-name"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></span>
             <span class="site-description"><?php bloginfo('description'); ?></span>
-        </div><!-- end of #logo -->  
-			    
+        </div><!-- end of #logo -->  <div class="clr"></div>
+			    <div class="menu-l"></div>
 				<?php wp_nav_menu(array(
 				    'container'       => '',
 					'theme_location'  => 'header-menu')
 					); 
 				?>
-                
+                <div class="menu-r"></div>
             <?php if (has_nav_menu('sub-header-menu', 'responsive')) { ?>
 	            <?php wp_nav_menu(array(
 				    'container'       => '',
@@ -87,6 +87,7 @@ if ( !defined('ABSPATH')) exit;
 					); 
 				?>
             <?php } ?>
+				
  
     </div><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
