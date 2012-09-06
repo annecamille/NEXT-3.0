@@ -87,11 +87,11 @@ margin: 							0 0 20px;
 padding: 							0px;
 }
 div.home-widgets .widget-title-home {
-	background: 					url('images/bg_widget_title.jpg');
-	border-bottom: 					1px solid #C7C7C7;
-	margin: 						0 0 10px 0;
-	box-shadow: 					inset 0px -1px 1px #FAFAFA;
-	padding: 						20px 0 10px 5px;
+	background: 					url('images/bg_widget_title.jpg') repeat-x;
+	border: 						1px solid #139E9F;
+	margin: 						-1px 0 10px -1px;
+	width: 							100%;
+	padding:						15px 0;
 }
 .widget-title, 
 .widget-title-home h3 {
@@ -99,7 +99,8 @@ div.home-widgets .widget-title-home {
 	font-weight:					normal;
 	line-height:					0;
 	margin:							0;
-	padding:						0 0 10px 0;
+	color: 							white;
+	padding: 						10px 0 5px 5px;
 }
 #widgets .tagcloud, #widgets .textwidget {
 	padding: 						5px;
