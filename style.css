@@ -108,6 +108,15 @@ div.home-widgets .widget-title-home {
 display: 							inline;
 margin-right: 						2.00000%;
 }
+div.textwidget p, form {
+	margin:							0 0 5px 0;
+	font-size:						11px;
+}
+input.bt-widget {
+	margin: 						10px 0;
+	width: 							80px;
+	border-radius: 					15px;
+}
 /* - - - - -  FOOTER */
 #footer {
 	color: 							#B1B1B1;
