@@ -24,7 +24,7 @@ a {
 	clear: 							none;
 	margin: 						11px auto 0 auto;
 	height: 						43px;
-	width: 							98%;
+	width: 							99%;
 	float: 							left;
 }
 .menu a:hover {
@@ -104,7 +104,10 @@ div.home-widgets .widget-title-home {
 #widgets .tagcloud, #widgets .textwidget {
 	padding: 						5px;
 }
-
+.col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
+display: 							inline;
+margin-right: 						2.00000%;
+}
 /* - - - - -  FOOTER */
 #footer {
 	color: 							#B1B1B1;
@@ -115,63 +118,62 @@ div.home-widgets .widget-title-home {
 	font-weight: 					400;
 }
 
-/* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
-.details { 
-	margin:							15px 20px; 
-}	
-h4 { 
-	font:							300 16px 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-	line-height:					160%; 
-	letter-spacing:					0.15em; 
-	color:							#fff; 
-	text-shadow:					1px 1px 0 rgb(0,0,0); }
-.mosaic-block p {
-	font:							300 12px 'Lucida Grande', Tahoma, Verdana, sans-serif; 
-	color:							#aaa; 
-	text-shadow:					1px 1px 0 rgb(0,0,0);
-}
-.mosaic-block {
-	float:							left;
-	position:relative;
-	overflow:hidden;
-	width:400px;
-	height:250px;
-	margin:10px;
-	background:#111;
-	border:1px solid #fff;
-	-webkit-box-shadow:				0 1px 3px rgba(0,0,0,0.5);
-}
-
-.mosaic-backdrop {
-	display:						none;
-	position:						absolute;
-	top:							0;
-	height:							100%;
-	width:							100%;
-	background:						#111;
-}
 .clr {
 	clear: both;
 }
-.mosaic-overlay {
-	display:none;
-	z-index:5;
-	position:absolute;
-	width:100%;
-	height:100%;
-	background:#111;
-}
 div.menu-l {
-	border:							0px solid #000;
-	width: 5px;
-	height: 66px;
-	float: left;
-	background: url('images/lado-menu.jpg');
+	width: 							3px;
+	height: 						66px;
+	float: 							left;
+	background: 					url('images/lado-menu.jpg');
 }
 div.menu-r {
-	border:							0px solid #000;
-	width: 							5px;
+	width: 							3px;
 	height: 						66px;
 	float: 							left;
 	background: 					url('images/lado-menu.jpg') 0 66px;
 }
+/* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
+.mosaic-block {
+	float:							left;
+	position:						relative;
+	overflow:						hidden;
+	width:							100%;
+	height:							144px;
+}
+
+	.mosaic-backdrop {
+		display:none;
+		position:absolute;
+		top:0;
+		height:100%;
+		width:100%;
+		background:#111;
+	}
+	
+	.mosaic-overlay {
+		display:none;
+		z-index:5;
+		position:absolute;
+		width:100%;
+		height:100%;
+		background:#111;
+	}
+	
+.details{ 
+	margin:							5px; 
+}	
+.details h4{ 
+	font:							16px 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	letter-spacing:					0.15em; 
+	color:							#fff; 
+	text-shadow:					1px 1px 0 rgb(0,0,0); 
+}
+.details p{ 
+	font:							300 12px 'Lucida Grande', Tahoma, Verdana, sans-serif; 
+	color:							#aaa; text-shadow:1px 1px 0 rgb(0,0,0);
+}
+.details a{ 
+	text-decoration:				none; 
+}
+

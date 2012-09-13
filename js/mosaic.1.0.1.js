@@ -115,5 +115,5 @@
             (new $.omr.mosaic(this, options));
         });
     };
-    
+
 })(jQuery);
