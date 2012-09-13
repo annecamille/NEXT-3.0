@@ -75,7 +75,7 @@ if ( !defined('ABSPATH')) exit;
             <div class="post-edit"><?php edit_post_link(__('Edit', 'responsive')); ?></div> 
             </div><!-- end of #post-<?php the_ID(); ?> -->
             
-            <?php comments_template( '', true ); ?>
+            <?php //comments_template( '', true ); ?>
             
         <?php endwhile; ?> 
         

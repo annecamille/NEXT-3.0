@@ -126,6 +126,12 @@ form#widget input.widget, textarea.widget {
 	padding:						8px 0;
 }
 /* - - - - -  LAYOUT */
+h3 {
+	margin: 						0.14em 0 0.57em;
+}
+p, hr, dl, pre, form, table, address, blockquote {
+margin: 							5px 0;
+}
 .breadcrumb-list {
 	font-size: 						12px;
 	background: 					whiteSmoke;
@@ -144,6 +150,16 @@ form#widget input.widget, textarea.widget {
 .post-meta a {
 	color: 							#D62F2F;
 	font-size: 						11px;
+}
+#respond {
+	-moz-border-radius: 			2px;
+	-webkit-border-radius: 			2px;
+	border-radius:	 				2px;
+	background-color: 				#EAEAEA;
+	background-image: 				none;
+	border: 						1px solid #CCC;
+	margin:		 					5px 0;
+	padding: 						10px;
 }
 /* - - - - -  FOOTER */
 #footer {
