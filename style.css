@@ -28,9 +28,8 @@ a {
 	float: 							left;
 }
 .menu a:hover {
-	background-color:				transparent;
-	background-image: 				none;
-	color:							#fff;
+	background: 					url('images/bg-hover-menu.png') no-repeat center 4px;
+	height: 						43px;
 }
 .menu a {
 	border-left:					none;
@@ -39,11 +38,11 @@ a {
 	box-shadow:						none;
 }
 .menu > li:first-child > a:hover {
-	box-shadow:						inset 0px 1px 0px #8DD4D5;
+
 }
 .menu .current_page_item a {
-	background-color:				#27B3B4;
-	box-shadow:						inset 0px 1px 0px #8DD4D5;
+	background: 					url('images/bg-hover-menu.png') no-repeat center 4px;
+	height: 						43px;
 }
 
 /* - - - - - - HEADER */
