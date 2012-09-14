@@ -118,12 +118,15 @@ input.bt-widget {
 	width: 							80px;
 	border-radius: 					15px;
 }
-form#widget input.widget, textarea.widget {
+input.widget, textarea.widget {
 	background:						#F7F7F7;
 	border:							1px solid #d1d1d1;
 	box-shadow:						none;
+	width:							98%;
+	padding:						8px 0 8px 5px;
+}
+textarea.widget {
 	width:							100%;
-	padding:						8px 0;
 }
 /* - - - - -  LAYOUT */
 h3 {
