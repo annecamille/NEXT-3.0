@@ -118,7 +118,7 @@ input.bt-widget {
 	width: 							80px;
 	border-radius: 					15px;
 }
-input.widget, textarea.widget {
+input#widget, textarea.widget {
 	background:						#F7F7F7;
 	border:							1px solid #d1d1d1;
 	box-shadow:						none;
