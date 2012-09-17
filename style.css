@@ -128,9 +128,42 @@ input.widget, textarea.widget {
 textarea.widget {
 	width:							100%;
 }
+a.rsswidget img {
+	display:						none;
+}
+#widgets ul li a {
+	display: 						block;
+	font-size: 						12px;
+}
+div.widget-wrapper ul {
+	margin-left: 					15px;
+	list-style-image:				url('images/bullet.png');
+}
+#widgets ul li {
+	margin-left: 					10px;
+	border-bottom: 					1px solid #DADADA;
+}
+#widgets .rss-date {
+	line-height: 					0px;
+	color: 							#A8A8A8;
+	font-size: 						10px;
+	padding:						0;
+}
+#widgets a {
+	display:						block;
+}
 /* - - - - -  LAYOUT */
 h3 {
 	margin: 						0.14em 0 0.57em;
+	line-height:					0;
+}
+h3 a {
+	line-height:					0;
+	color:							#FFF;
+}
+h3 a:hover {
+	line-height:					0;
+	color:							#FFF;
 }
 p, hr, dl, pre, form, table, address, blockquote {
 margin: 							5px 0;
