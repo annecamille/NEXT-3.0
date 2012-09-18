@@ -70,6 +70,9 @@ h1.post-title a {
 	color: 							#C25656;
 	font-size: 						19px;
 }
+h1.post-title a:hover {
+	color: 							#6F6F6F;
+}
 /* - - - - -  WIDGET */
 div.grid.col-940 .widget-wrapper {
 -webkit-border-radius: 				0;
@@ -169,6 +172,9 @@ h3 a {
 h3 a:hover {
 	line-height:					0;
 	color:							#FFF;
+}
+h1 {
+	margin: 						10px 0 5px 0;
 }
 p, hr, dl, pre, form, table, address, blockquote {
 margin: 							5px 0;
