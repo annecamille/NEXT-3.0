@@ -42,6 +42,10 @@ if ( !defined('ABSPATH')) exit;
 <body <?php body_class(); ?>>
                  
 <?php responsive_container(); // before container hook ?>
+<div id="menu-topo">
+	<div class="menu-topo-in">oi
+	</div>
+</div>
 <div id="container" class="hfeed">
          
     <?php responsive_header(); // before header hook ?>
@@ -60,7 +64,7 @@ if ( !defined('ABSPATH')) exit;
     <?php responsive_in_header(); // header hook ?>
    
 	<?php if ( get_header_image() != '' ) : ?>
-               
+        
         <div id="logo">
             <a href="<?php echo home_url('/'); ?>"><img src="<?php header_image(); ?>" width="<?php if(function_exists('get_custom_header')) { echo get_custom_header() -> width;} else { echo HEADER_IMAGE_WIDTH;} ?>" height="<?php if(function_exists('get_custom_header')) { echo get_custom_header() -> height;} else { echo HEADER_IMAGE_HEIGHT;} ?>" alt="<?php bloginfo('name'); ?>" /></a>
         </div><!-- end of #logo -->

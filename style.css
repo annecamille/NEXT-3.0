@@ -65,6 +65,14 @@ a {
 	font-family: 					verdana;
 	color: 							#919191;
 }
+div#menu-topo {
+	background:						#ededed;
+	border-bottom:					1px solid #DBDBDB;
+}
+.menu-topo-in {
+	margin:							0 auto;
+	width:							960px;
+}
 /* - - - - -  POST/BLOG */
 h1.post-title a {
 	color: 							#C25656;
