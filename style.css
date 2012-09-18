@@ -28,7 +28,7 @@ a {
 	float: 							left;
 }
 .menu a:hover {
-	background: 					url('images/bg-hover-menu.png') no-repeat center 4px;
+	background: 					url('images/bg-menu-hover.jpg');
 	height: 						43px;
 }
 .menu a {
