@@ -256,6 +256,12 @@ div.menu-r {
 	float: 							left;
 	background: 					url('images/lado-menu.jpg') 0 66px;
 }
+a.img-fiocruz {
+	width:							45px;
+	height:							58px;
+	display:						block;
+	background:						url('images/img-footer.jpg');
+}
 /* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
 .mosaic-block {
 	float:							left;
