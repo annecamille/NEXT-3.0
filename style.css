@@ -65,6 +65,11 @@ a {
 	font-family: 					verdana;
 	color: 							#919191;
 }
+/* - - - - -  POST/BLOG */
+h1.post-title a {
+	color: 							#C25656;
+	font-size: 						19px;
+}
 /* - - - - -  WIDGET */
 div.grid.col-940 .widget-wrapper {
 -webkit-border-radius: 				0;
