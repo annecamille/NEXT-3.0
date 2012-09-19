@@ -40,18 +40,18 @@ if ( !defined('ABSPATH')) exit;
 </head>
 
 <body <?php body_class(); ?>>
-                 
-<?php responsive_container(); // before container hook ?>
-<div id="menu-topo">
-	<div class="menu-topo-in">oi
-	</div>
-</div>
-<div id="container" class="hfeed">
-         
-    <?php responsive_header(); // before header hook ?>
-    <div id="header">
     
-        <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<?php responsive_container(); // before container hook ?>
+ <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
 				    'container'       => '',
 					'fallback_cb'	  =>  false,
@@ -60,6 +60,12 @@ if ( !defined('ABSPATH')) exit;
 					); 
 				?>
         <?php } ?>
+<div id="container" class="hfeed">
+        
+    <?php responsive_header(); // before header hook ?>
+    <div id="header">
+    
+        
         
     <?php responsive_in_header(); // header hook ?>
    

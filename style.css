@@ -65,9 +65,15 @@ a {
 	font-family: 					verdana;
 	color: 							#919191;
 }
-div#menu-topo {
-	background:						#ededed;
-	border-bottom:					1px solid #DBDBDB;
+ul.top-menu {
+	background: 					#EDEDED;
+	border-bottom: 					1px solid #DBDBDB;
+	margin: 						0;
+	float:							none;
+	padding: 						0 0 0 10px;
+}
+ul.top-menu a {
+	color:							#7C7C7C;
 }
 .menu-topo-in {
 	margin:							0 auto;
@@ -130,11 +136,11 @@ div.widget_archive ul li a {
 	color: 							white;
 	padding: 						10px 0 5px 5px;
 }
-div.widget-title {
-
+.fan_box .profileimage {
+	display:						none;
 }
 #widgets .tagcloud, #widgets .textwidget {
-	padding: 						5px;
+	padding: 						3px;
 }
 .col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
 display: 							inline;
