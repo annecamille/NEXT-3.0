@@ -81,8 +81,11 @@ if ( !defined('ABSPATH')) exit;
         <div id="logo">
             <span class="site-name"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></span>
             <span class="site-description"><?php bloginfo('description'); ?></span>
-        </div><!-- end of #logo -->  <div class="clr"></div>
-				
+        </div><!-- end of #logo -->  
+		
+		
+		<div class="clr"></div>
+		<div id="pesquisa"><?php get_search_form('');?></div>		
 			    <div class="menu-l"></div>
 				<?php wp_nav_menu(array(
 				    'container'       => '',

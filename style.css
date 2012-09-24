@@ -46,6 +46,9 @@ a {
 	background: 					url('images/bg-hover-menu.png') no-repeat center 4px;
 	height: 						43px;
 }
+.sub-header-menu {
+	border: 						none;
+}
 
 /* - - - - - - HEADER */
 .site-name {
@@ -78,6 +81,13 @@ ul.top-menu a {
 .menu-topo-in {
 	margin:							0 auto;
 	width:							960px;
+}
+div#pesquisa {
+	width: 							20%;
+	height: 						30px;
+	border: 						0px solid black;
+	margin: 						-45px 0 0 0;
+	float: 							right;
 }
 /* - - - - -  POST/BLOG */
 h1.post-title a {
@@ -206,7 +216,7 @@ h1 {
 	margin: 						10px 0 5px 0;
 }
 p, hr, dl, pre, form, table, address, blockquote {
-margin: 							5px 0;
+	margin: 						0;
 }
 .breadcrumb-list {
 	font-size: 						12px;
