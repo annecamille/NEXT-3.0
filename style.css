@@ -89,6 +89,21 @@ div#pesquisa {
 	margin: 						-45px 0 0 0;
 	float: 							right;
 }
+.menu li li {
+	background:						#efefef;
+	background-image:				none;
+	border:							1px solid #d0d0d0;
+	border-top:						none;
+	filter:							none;
+	width:							auto;
+}
+.menu li li a:hover {
+	background: 					whiteSmoke !important;
+	height: 						20px;
+}
+ul.children li.current_page_item {
+	height: 						30px;
+}
 /* - - - - -  POST/BLOG */
 h1.post-title a {
 	color: 							#C25656;
