@@ -103,15 +103,15 @@ if ( !defined('ABSPATH')) exit;
          </div><!-- end of col-940 -->
          <?php get_sidebar('colophon'); ?>
                 
-        <div class="grid col-300 copyright">
+        <div class="grid col-380 copyright">
             <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                 <?php bloginfo('name'); ?>
             </a>
         </div><!-- end of .copyright -->
         
-        <div class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
+        <div class="grid col-60 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
         
-        <div class="grid col-300 fit powered">
+        <div class="grid col-460 fit powered">
 			<a class="img-fiocruz"></a>
         </div><!-- end .powered -->
         

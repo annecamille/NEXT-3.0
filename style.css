@@ -266,6 +266,7 @@ p, hr, dl, pre, form, table, address, blockquote {
 #footer {
 	color: 							#B1B1B1;
 	border-top: 					1px solid #E4E4E4;
+	padding: 						10px 0 0 0;
 }
 #footer a {
 	color: 							#1bb8b9;
@@ -291,6 +292,7 @@ a.img-fiocruz {
 	width:							45px;
 	height:							58px;
 	display:						block;
+	float: 							right;
 	background:						url('images/img-footer.jpg');
 }
 /* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
