@@ -34,56 +34,22 @@ if ( !defined('ABSPATH')) exit;
             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 <h1 class="post-title"><?php the_title(); ?></h1>
  
-                <?php if ( comments_open() ) : ?>               
-                <div class="post-meta">
-                <?php 
-                    printf( __( '<span class="%1$s">Posted on</span> %2$s by %3$s', 'responsive' ),'meta-prep meta-prep-author',
-		            sprintf( '<a href="%1$s" title="%2$s" rel="bookmark">%3$s</a>',
-			            get_permalink(),
-			            esc_attr( get_the_time() ),
-			            get_the_date()
-		            ),
-		            sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s">%3$s</a></span>',
-			            get_author_posts_url( get_the_author_meta( 'ID' ) ),
-			        sprintf( esc_attr__( 'View all posts by %s', 'responsive' ), get_the_author() ),
-			            get_the_author()
-		                )
-			        );
-		        ?>
-				    <?php if ( comments_open() ) : ?>
-                        <span class="comments-link">
-                        <span class="mdash">&mdash;</span>
-                    <?php comments_popup_link(__('No Comments &darr;', 'responsive'), __('1 Comment &darr;', 'responsive'), __('% Comments &darr;', 'responsive')); ?>
-                        </span>
-                    <?php endif; ?> 
-                </div><!-- end of .post-meta -->
-                <?php endif; ?> 
+                
+                
                 
                 <div class="post-entry">
                     <?php the_content(__('Read more &#8250;', 'responsive')); ?>
                     <?php wp_link_pages(array('before' => '<div class="pagination">' . __('Pages:', 'responsive'), 'after' => '</div>')); ?>
                 </div><!-- end of .post-entry -->
                 
-                <?php if ( comments_open() ) : ?>
-                <div class="post-data">
-				    <?php the_tags(__('Tagged with:', 'responsive') . ' ', ', ', '<br />'); ?> 
-                    <?php the_category(__('Posted in %s', 'responsive') . ', '); ?> 
-                </div><!-- end of .post-data -->
-                <?php endif; ?>             
+                            
             
-            <div class="post-edit"><?php edit_post_link(__('Edit', 'responsive')); ?></div> 
+            
             </div><!-- end of #post-<?php the_ID(); ?> -->
-            
-            <?php comments_template( '', true ); ?>
-            
+        
         <?php endwhile; ?> 
         
-        <?php if (  $wp_query->max_num_pages > 1 ) : ?>
-        <div class="navigation">
-			<div class="previous"><?php next_posts_link( __( '&#8249; Older posts', 'responsive' ) ); ?></div>
-            <div class="next"><?php previous_posts_link( __( 'Newer posts &#8250;', 'responsive' ) ); ?></div>
-		</div><!-- end of .navigation -->
-        <?php endif; ?>
+        
 
 	    <?php else : ?>
 
