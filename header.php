@@ -85,7 +85,7 @@ if ( !defined('ABSPATH')) exit;
 		
 		
 		<div class="clr"></div>
-		<div id="pesquisa"><?php get_search_form('');?></div>		
+	
 			    <div class="menu-l"></div>
 				<?php wp_nav_menu(array(
 				    'container'       => '',
