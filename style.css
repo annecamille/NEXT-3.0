@@ -17,6 +17,9 @@ a {
 	border:none;
 	padding: 0;
 }
+.fit-b {
+	margin-bottom:					0 !important;
+}
 .menu {
 	background:		 				#2CC0C1 url('images/bg-menu.jpg') repeat-x;
 	border-top:						1px solid #26ACAD;
@@ -265,12 +268,21 @@ p, hr, dl, pre, form, table, address, blockquote {
 /* - - - - -  FOOTER */
 #footer {
 	color: 							#B1B1B1;
-	border-top: 					1px solid #E4E4E4;
-	padding: 						10px 0 0 0;
+	border-top: 					none;
+	max-width:						100%;
+	background: 					#96cbcb url('images/bg-footer-00.jpg') repeat-x;
+	padding: 						0;
 }
 #footer a {
 	color: 							#1bb8b9;
 	font-weight: 					400;
+}
+#footer-wrapper {
+	width:							960px;
+	height:							150px;
+	padding: 						10px 0 0 0;
+	margin:							0 auto;
+	background: 					url('images/bg-footer.jpg') no-repeat;
 }
 
 .clr {
@@ -292,7 +304,7 @@ a.img-fiocruz {
 	width:							45px;
 	height:							58px;
 	display:						block;
-	float: 							right;
+	float: 							left;
 	background:						url('images/img-footer.jpg');
 }
 /* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
@@ -338,4 +350,5 @@ a.img-fiocruz {
 .details a{ 
 	text-decoration:				none; 
 }
+
 

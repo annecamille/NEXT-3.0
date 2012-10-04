@@ -27,21 +27,42 @@ if ( !defined('ABSPATH')) exit;
 
     <div id="footer-wrapper">
     
-        <div class="grid col-940">
+		<div class="grid col-380">
+			<?php get_search_form( $echo ); ?>		
+		</div>
+		<div class="clr"></div>
+		
+		<div class="grid col-460 fit-b">
+			<div class="grid col-860">
+				<?php if (has_nav_menu('footer-menu', 'responsive')) { ?>
+				<?php wp_nav_menu(array(
+						'container'       => '',
+						'fallback_cb'	  =>  false,
+						'menu_class'      => 'footer-menu',
+						'theme_location'  => 'footer-menu')
+						); 
+						?>
+				<?php } ?>
+			</div>
+			<div class="clr"></div>
+			
+			<div class="grid col-860">
+				<a class="img-fiocruz"></a>
+			</div>
+			
+			<div class="clr"></div>
+			
+			<div class="grid col-860 copyright">
+				<?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+					<?php bloginfo('name'); ?>
+				</a>
+			</div><!-- end of .copyright -->
+		</div><!-- end of col-460 -->
+		
+         <?php //get_sidebar('colophon'); ?>               
         
-        <div class="grid col-540">
-		<?php if (has_nav_menu('footer-menu', 'responsive')) { ?>
-	        <?php wp_nav_menu(array(
-				    'container'       => '',
-					'fallback_cb'	  =>  false,
-					'menu_class'      => 'footer-menu',
-					'theme_location'  => 'footer-menu')
-					); 
-				?>
-         <?php } ?>
-         </div><!-- end of col-540 -->
-         
-         <div class="grid col-380 fit">
+		<div class="grid col-380 fit-b">
+			<div class="grid col-860 fit">
          <?php $options = get_option('responsive_theme_options');
 					
             // First let's check if any of this was set
@@ -99,21 +120,10 @@ if ( !defined('ABSPATH')) exit;
                 echo '</ul><!-- end of .social-icons -->';
          ?>
          </div><!-- end of col-380 fit -->
-         
-         </div><!-- end of col-940 -->
-         <?php get_sidebar('colophon'); ?>
-                
-        <div class="grid col-380 copyright">
-            <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
-        </div><!-- end of .copyright -->
+		
+		</div><!-- end of col-380 -->
         
-        <div class="grid col-60 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
         
-        <div class="grid col-460 fit powered">
-			<a class="img-fiocruz"></a>
-        </div><!-- end .powered -->
         
     </div><!-- end #footer-wrapper -->
     
