@@ -30,6 +30,9 @@ if ( !defined('ABSPATH')) exit;
 		<div class="grid col-380">
 			<?php get_search_form( $echo ); ?>		
 		</div>
+		<div class="grid col-300 scroll-top">
+			<a href="#scroll-top" class="scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"></a>
+		</div>
 		<div class="clr"></div>
 		
 		<div class="grid col-460 fit-b">
@@ -47,7 +50,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="clr"></div>
 			
 			<div class="grid col-860">
-				<a class="img-fiocruz"></a>
+				<a class="img-fiocruz"></a> <a class="img-wordpress"></a>
 			</div>
 			
 			<div class="clr"></div>

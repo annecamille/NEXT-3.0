@@ -107,6 +107,9 @@ div#pesquisa {
 ul.children li.current_page_item {
 	height: 						30px;
 }
+.footer-menu li a {
+	border:							none;
+}
 /* - - - - -  POST/BLOG */
 h1.post-title a {
 	color: 							#C25656;
@@ -292,15 +295,20 @@ input.bt-submit-pesquisa {
 }
 /* - - - - -  FOOTER */
 #footer {
-	color: 							#B1B1B1;
+	color: 							#267676;
 	border-top: 					none;
 	max-width:						100%;
 	background: 					#96cbcb url('images/bg-footer-00.jpg') repeat-x;
 	padding: 						0;
+	font-size:						12px;
 }
 #footer a {
-	color: 							#1bb8b9;
+	color: 							#FFFFFF;
+	font-size:						12px;
 	font-weight: 					400;
+}
+#footer a:hover {
+	color: 							#c0e0e0;
 }
 #footer-wrapper {
 	width:							960px;
@@ -325,12 +333,25 @@ div.menu-r {
 	float: 							left;
 	background: 					url('images/lado-menu.jpg') 0 66px;
 }
-a.img-fiocruz {
-	width:							45px;
-	height:							58px;
+a.img-fiocruz, a.img-wordpress {
+	width:							33px;
+	height:							42px;
 	display:						block;
 	float: 							left;
-	background:						url('images/img-footer.jpg');
+	margin:							0 5px 0 0
+}
+a.img-fiocruz {
+	background:						url('images/img-rodape.jpg');
+}
+a.img-wordpress {
+	background:						url('images/img-rodape.jpg') 0 42px;
+}
+a.scroll-top {
+	display:						block;
+	width:							25px;
+	height:							25px;
+	margin: 						3px 0 0 0;
+	background:						url('images/seta-up.png');
 }
 /* - - - - -  EFEITOS REDES SOCIAIS WIDGETS*/
 .mosaic-block {
