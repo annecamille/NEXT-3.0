@@ -265,6 +265,31 @@ p, hr, dl, pre, form, table, address, blockquote {
 	margin:		 					5px 0;
 	padding: 						10px;
 }
+div#rodape select, input[type="text"], input[type="password"] {
+	background:	 					#FFFFFF;
+	border: 						none;
+	box-shadow: 					none; 
+	border-radius: 					2px;
+	margin: 						0;
+	outline: 						none;
+	padding: 						4px;
+	vertical-align: 				middle;
+	width: 							70%;
+}
+input.bt-submit-pesquisa {
+	border:							1px solid #CCC;
+	box-shadow: 					0pt -1px 0pt rgba(0, 0, 0, 0.075) inset, 0pt 1px 0pt rgba(255, 255, 255, 0.3) inset, 0pt 1px 2px rgba(0, 0, 0, 0.1);
+	background-color: 				#EAEAEA;
+	background-image: none;
+	border-radius: 5px;
+	color: 							#307074;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 						4px 0;
+	padding: 						3px 15px;
+	text-shadow: 					0 1px 0 white;
+	vertical-align: 				middle;
+}
 /* - - - - -  FOOTER */
 #footer {
 	color: 							#B1B1B1;
