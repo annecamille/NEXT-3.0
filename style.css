@@ -315,7 +315,7 @@ input.bt-submit-pesquisa {
 	height:							150px;
 	padding: 						10px 0 0 0;
 	margin:							0 auto;
-	background: 					url('images/bg-footer.jpg') no-repeat;
+	background: 					url('images/bg-footer.jpg') no-repeat top right;
 }
 
 .clr {
