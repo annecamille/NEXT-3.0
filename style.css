@@ -311,7 +311,7 @@ input.bt-submit-pesquisa {
 	color: 							#c0e0e0;
 }
 #footer-wrapper {
-	width:							960px;
+	max-width:						960px;
 	height:							150px;
 	padding: 						10px 0 0 0;
 	margin:							0 auto;
@@ -322,13 +322,13 @@ input.bt-submit-pesquisa {
 	clear: both;
 }
 div.menu-l {
-	width: 							3px;
+	width: 							2px;
 	height: 						66px;
 	float: 							left;
 	background: 					url('images/lado-menu.jpg');
 }
 div.menu-r {
-	width: 							3px;
+	width: 							2px;
 	height: 						66px;
 	float: 							left;
 	background: 					url('images/lado-menu.jpg') 0 66px;
@@ -397,4 +397,41 @@ a.scroll-top {
 	text-decoration:				none; 
 }
 
+/* MEDIA QUERY - - - - - - - */
+@media screen and (max-width: 650px) {
+	.tinynav { 
+	    display:block;
+		width: 99%;
+		height: 45px;
+		box-shadow: 0 0 0 white;
+		border-radius: 0;
+		float: left;
+		margin: 11px auto 0 auto;
+		font-size: 14px;
+		color:	#FFFFFF;
+		text-shadow: 0 1px 1px #199;
+		font-weight: 700;
+	}
+	
+	.tinynav {
+		background: #2CC0C1 url('images/bg-select.jpg') no-repeat right;
+		border-top: 1px solid #26ACAD;
+		border-bottom: 1px solid #26ACAD;
+		border-left: none;
+		border-right: none;
+		overflow:hidden;
+		clear: none;
+		padding:0.5em 1em 0.5em 0.75em;
+	}
 
+}
+@media screen and (max-width: 450px) {
+		.tinynav { 
+		width: 98%;
+		}
+}
+@media screen and (max-width: 320px) {
+		.tinynav { 
+		width: 96%;
+		}
+}
