@@ -50,7 +50,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="clr"></div>
 			
 			<div id="tecnologias">
-				<a class="img-fiocruz"></a> <a class="img-wordpress"></a>
+				<a class="img-wp"></a> <a class="img-bp"></a> <a class="img-moodle"></a> <a class="img-mw"></a>
 			</div>
 			
 			<div class="clr"></div>

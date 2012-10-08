@@ -340,17 +340,23 @@ div.menu-r {
 	float: 							left;
 	background: 					url('images/lado-menu.jpg') 0 66px;
 }
-a.img-fiocruz, a.img-wordpress {
+a.img-wp, a.img-bp, a.img-moodle, a.img-mw {
 	width:							33px;
 	height:							42px;
 	display:						block;
 	float: 							left;
 	margin:							0 5px 0 0
 }
-a.img-fiocruz {
+a.img-wp {
 	background:						url('images/img-rodape.jpg');
 }
-a.img-wordpress {
+a.img-bp {
+	background:						url('images/img-rodape.jpg') 0 124px;
+}
+a.img-moodle {
+	background:						url('images/img-rodape.jpg') 0 83px;
+}
+a.img-mw {
 	background:						url('images/img-rodape.jpg') 0 42px;
 }
 a.scroll-top {
