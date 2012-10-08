@@ -15,7 +15,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="grid col-220">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
-						<div class="mosaic-overlay"><img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/facebook.jpg" alt="Facebook" title="Facebook"/></div>
+						<div class="mosaic-overlay" id="facebook"></div>
 						<a href="#" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>FACEBOOK</h4>
@@ -29,7 +29,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="grid col-220">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
-						<div class="mosaic-overlay"><img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/youtube.jpg" alt="Youtube" title="Youtube"/></div>
+						<div class="mosaic-overlay" id="youtube"></div>
 						<a href="#" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>CANAL DO NEXT</h4>
@@ -43,7 +43,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="grid col-220">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
-						<div class="mosaic-overlay"><img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/wikipedia.jpg" alt="Wikipedia" title="Wikipédia"/></div>
+						<div class="mosaic-overlay" id="wikipedia"></div>
 						<a href="#" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>WIKI DO NEXT</h4>
@@ -57,7 +57,7 @@ if ( !defined('ABSPATH')) exit;
 			<div class="grid col-220 fit">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
-						<div class="mosaic-overlay"><img src="<?php print get_stylesheet_directory_uri() ; ?>/icons/moodle.jpg" alt="Moodle" title="Moodle"/></div>
+						<div class="mosaic-overlay" id="moodle"></div>
 						<a href="#" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>MOODLE</h4>

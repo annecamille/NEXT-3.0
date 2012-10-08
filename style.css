@@ -361,6 +361,22 @@ a.scroll-top {
 	width:							100%;
 	height:							144px;
 }
+	#facebook {
+		background:	#355fb5 url('icons/facebook.jpg') no-repeat center;
+		width:100%;	
+	}
+	#youtube {
+		background:	#d34b4b url('icons/youtube.jpg') no-repeat center;
+		width:100%;	
+	}
+	#wikipedia {
+		background:	#d5d5d5 url('icons/wikipedia.jpg') no-repeat center;
+		width:100%;	
+	}
+	#moodle {
+		background:	#ff8800 url('icons/moodle.jpg') no-repeat center;
+		width:100%;	
+	}
 
 	.mosaic-backdrop {
 		display:none;
