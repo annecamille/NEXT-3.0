@@ -317,7 +317,14 @@ input.bt-submit-pesquisa {
 	margin:							0 auto;
 	background: 					url('images/bg-footer.jpg') no-repeat top right;
 }
-
+.rodape {
+	display: none;
+	width: 100%;
+	height:	40px;
+}
+div#tecnologias, div#copyright {
+	width:	100%;
+}
 .clr {
 	clear: both;
 }
@@ -415,6 +422,14 @@ a.scroll-top {
 
 /* MEDIA QUERY - - - - - - - */
 @media screen and (max-width: 650px) {
+	#footer-wrapper {
+		padding: 50px 5px 0 5px;
+		font-size:	10px;
+	}
+	#footer-wrapper a {
+		font-size:	10px;
+	}
+
 	.tinynav { 
 	    display:block;
 		width: 99%;
@@ -439,7 +454,23 @@ a.scroll-top {
 		clear: none;
 		padding:0.5em 1em 0.5em 0.75em;
 	}
+	#footer {
+	    text-align:left;
+    }
 
+    #footer .social-icons {
+	    text-align:left;
+    }
+	
+	form#searchform {
+		width: 80%;
+		float: left;
+	}
+	
+	div.grid.col-60.scroll-top {
+		float: left;
+		margin: 0 0 0 0;
+	}
 }
 @media screen and (max-width: 450px) {
 		.tinynav { 
