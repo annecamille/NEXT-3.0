@@ -103,7 +103,7 @@ if ( !defined('ABSPATH')) exit;
             <?php } ?>
 				
 		
-    </div><!-- end of #header -->
+    </div></div><!-- end of #header e container -->
     <?php responsive_header_end(); // after header hook ?>
 
 	<?php responsive_wrapper(); // before wrapper ?>

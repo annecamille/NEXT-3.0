@@ -7,7 +7,8 @@ if ( !defined('ABSPATH')) exit;
  //print '<pre>'; print_r($options); print '</pre>';
  
 ?>
-        <div id="widgets" class="grid col-940 ">
+	<div id="container" class="hfeed">
+	   <div id="widgets" class="grid col-940 ">
         <?php responsive_widgets(); // above widgets hook ?>
             
             <?php if (!dynamic_sidebar('Content home top')) : ?>
@@ -70,4 +71,4 @@ if ( !defined('ABSPATH')) exit;
 			<?php endif; //end of main-sidebar ?>
 
         <?php responsive_widgets_end(); // after widgets hook ?>
-        </div><!-- end of #widgets -->
+        </div></div><!-- end of #widgets e #container -->

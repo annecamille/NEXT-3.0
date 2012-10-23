@@ -18,7 +18,8 @@ if ( !defined('ABSPATH')) exit;
  * @since          available since Release 1.0
  */
 ?>  
-    <div id="widgets" class="home-widgets">
+    <div id="container" class="hfeed">
+	<div id="widgets" class="home-widgets">
         <div class="grid col-300">
         <?php responsive_widgets(); // above widgets hook ?>
             
@@ -65,7 +66,9 @@ if ( !defined('ABSPATH')) exit;
 		
         </div><!-- end of .col-300 fit -->
 		
-		<div class="grid col-940 ">
+		
+    </div> </div><!-- end of #widgets e #container -->
+	<div id="home-widget-bottom">
         <?php responsive_widgets(); // above widgets hook ?>
             
 			<?php if (!dynamic_sidebar('home-widget-bottom')) : ?>
@@ -74,4 +77,3 @@ if ( !defined('ABSPATH')) exit;
             
         <?php responsive_widgets_end(); // after widgets hook ?>
 		</div>
-    </div><!-- end of #widgets -->
