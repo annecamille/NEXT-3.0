@@ -20,7 +20,7 @@ if ( !defined('ABSPATH')) exit;
 
 <?php get_sidebar('home-top'); ?>
 
-<?php get_sidebar('home'); ?>
+</div></div><!-- FIM DA DIV CONTAINER--><?php get_sidebar('home'); ?><div id="container" class="hfeed">
 
 
 		

@@ -69,11 +69,20 @@ if ( !defined('ABSPATH')) exit;
 		
     </div> </div><!-- end of #widgets e #container -->
 	<div id="home-widget-bottom">
-        <?php responsive_widgets(); // above widgets hook ?>
-            
-			<?php if (!dynamic_sidebar('home-widget-bottom')) : ?>
-
-			<?php endif; //end of home-widget-3 ?>
-            
-        <?php responsive_widgets_end(); // after widgets hook ?>
+		<div id="container" class="hfeed">
+			<div class="grid col-460">
+				<?php responsive_widgets(); // above widgets hook ?>
+					<?php if (!dynamic_sidebar('home-widget-left')) : ?>
+					<?php endif; //end of home-widget-3 ?>            
+				<?php responsive_widgets_end(); // after widgets hook ?>
+			</div>
+			
+			<div class="grid col-460 fit">
+				<?php responsive_widgets(); // above widgets hook ?>
+					<?php if (!dynamic_sidebar('home-widget-right')) : ?>
+					<?php endif; //end of home-widget-3 ?>            
+				<?php responsive_widgets_end(); // after widgets hook ?>
+			</div>
 		</div>
+		
+	</div>

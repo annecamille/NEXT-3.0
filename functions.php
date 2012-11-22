@@ -36,4 +36,28 @@ if ( function_exists ('register_sidebar')) {
       'after_title'   => '</h3>'
     )
   );  
+  
+  // Area content home left
+  register_sidebar( array(
+      'name'          => 'Home widget left',
+      'id'            => 'home-widget-left',
+      'description'   => 'The content home left block.',
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widgettitle">',
+      'after_title'   => '</h3>'
+    )
+  );
+  
+    // Area content home left
+  register_sidebar( array(
+      'name'          => 'Home widget right',
+      'id'            => 'home-widget-right',
+      'description'   => 'The content home right block.',
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widgettitle">',
+      'after_title'   => '</h3>'
+    )
+  );
 }
