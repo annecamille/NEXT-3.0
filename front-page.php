@@ -17,8 +17,14 @@ if ( !defined('ABSPATH')) exit;
  */
 ?>
 <?php get_header(); ?>
+<div class="grid col-460">
+	<?php if (function_exists('nivoslider4wp_show')) { nivoslider4wp_show(); } ?>
+</div>
+<div class="grid col-460 fit">
+	<?php get_sidebar('home-top'); ?>
+</div>
 
-<?php get_sidebar('home-top'); ?>
+
 
 </div></div><!-- FIM DA DIV CONTAINER--><?php get_sidebar('home'); ?><div id="container" class="hfeed">
 

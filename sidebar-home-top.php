@@ -13,11 +13,11 @@ if ( !defined('ABSPATH')) exit;
             
             <?php if (!dynamic_sidebar('Content home top')) : ?>
 
-			<div class="grid col-220">
+			<div class="grid col-460">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
 						<div class="mosaic-overlay" id="facebook"></div>
-						<a href="#" target="_blank" class="mosaic-backdrop">
+						<a href="http://www.facebook.com/next.icict.fiocruz" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>FACEBOOK</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet libero nisi. Aliquam pulvinar velit rutrum sem bibendum auctor. </p>
@@ -27,11 +27,11 @@ if ( !defined('ABSPATH')) exit;
 				</div>
 			</div>
 			
-			<div class="grid col-220">
+			<div class="grid col-460 fit">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
 						<div class="mosaic-overlay" id="youtube"></div>
-						<a href="#" target="_blank" class="mosaic-backdrop">
+						<a href="http://www.youtube.com/nextfiocruz" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>CANAL DO NEXT</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet libero nisi. Aliquam pulvinar velit rutrum sem bibendum auctor. </p>
@@ -40,29 +40,29 @@ if ( !defined('ABSPATH')) exit;
 					</div>
 				</div>
 			</div>
-			
-			<div class="grid col-220">
+			<div class="clr"></div>
+			<div class="grid col-460">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
 						<div class="mosaic-overlay" id="wikipedia"></div>
-						<a href="#" target="_blank" class="mosaic-backdrop">
+						<a href="http://www.next.icict.fiocruz.br/wiki/" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>WIKI DO NEXT</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet libero nisi. Aliquam pulvinar velit rutrum sem bibendum auctor. </p>
+								<p>O Wiki do Next &eacute; um projeto que visa criar um ambiente de colabora&ccedil;&atilde;o coletiva entre pesquisadores e experimentadores de Tecnologias Interativas. </p>
 							</div>
 						</a>
 					</div>
 				</div>
 			</div>
 			
-			<div class="grid col-220 fit">
+			<div class="grid col-460 fit">
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
 						<div class="mosaic-overlay" id="moodle"></div>
-						<a href="#" target="_blank" class="mosaic-backdrop">
+						<a href="http://www.moodle.icict.fiocruz.br/" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>MOODLE</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet libero nisi. Aliquam pulvinar velit rutrum sem bibendum auctor. </p>
+								<p>Veja os cursos a dist&acirc;ncia que o NEXT oferece utilizando a plataforma Moodle. </p>
 							</div>
 						</a>
 					</div>

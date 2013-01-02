@@ -49,12 +49,8 @@ if ( !defined('ABSPATH')) exit;
 			<!-- </div> -->
 			<div class="clr"></div>
 			
-			<div id="tecnologias">
-				<a class="img-wp"></a> <a class="img-bp"></a> <a class="img-moodle"></a> <a class="img-mw"></a>
-			</div>
-			
 			<div class="clr"></div>
-			
+			<div class="imagem-footer"></div>
 			<div id="copyright">
 				Desenvolvido por  <?php esc_attr_e('&copy;', 'responsive'); ?><?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
 					<?php bloginfo('name'); ?>
