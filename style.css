@@ -258,6 +258,31 @@ h3 a:hover {
 	line-height:					0;
 	color:							#FFF;
 }
+div.icone-email, div.icone-busca {
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 0 5px 0 0;
+	background: url(images/sprite.png);
+}
+div.icone-email {
+	background-color: #36C0C2;
+	background-position-x: 0;
+	background-position-y: 133px;
+}
+div.icone-busca {
+	background-color: #36C0C2;
+	background-position-x: 0;
+	background-position-y: 363px;
+}
+div.titulo {
+	font-size: 20px;
+	color: #8F8F8F;
+	font-family: trebuchet ms;
+	font-weight: bold;
+	margin: 7px 0 0 0;
+}
 h1 {
 	margin: 						10px 0 5px 0;
 }
@@ -335,16 +360,37 @@ input.bt-submit-pesquisa {
 }
 input.widget {
 	background: #F7F7F7;
-border: 1px solid #D1D1D1;
-box-shadow: none;
-width: 98%;
-padding: 8px 0 8px 5px;
+	border: 1px solid #D1D1D1;
+	box-shadow: none;
+	width: 98%;
+	padding: 8px 0 8px 5px;
 }
 .navigation {
 	height: 						auto;
 	line-height: 					0px;
 	margin: 						0;
 	padding: 						0;
+}
+input.campo-contato {
+	width: 100%;
+	box-shadow: inset 0px 1px 1px #B6B6B6;
+	border-radius: 5px;
+	background: #E6E6E6;
+
+}
+input.campo-contato:hover {
+	background: #F0F0F0;
+}
+textarea.campo-contato:hover {
+	background: #F0F0F0;
+}
+textarea.campo-contato {
+	width: 100%;
+	padding: 0;
+	border: 0;
+	box-shadow: inset 0px 1px 1px #B6B6B6;
+	border-radius: 5px;
+	background: #E6E6E6;
 }
 /* - - - - -  FOOTER */
 #footer {
