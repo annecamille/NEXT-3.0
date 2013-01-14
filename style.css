@@ -401,7 +401,9 @@ textarea.campo-contato {
 }
 div#menu-pag {
 padding: 10px;
-margin: -2px 0 0 0;
+font-size: 13px;
+color: rgb(173, 173, 173);
+margin: -2px 0 20px 0;
 background: rgb(230, 230, 230);
 border-radius: 0  0 15px 15px;
 }
