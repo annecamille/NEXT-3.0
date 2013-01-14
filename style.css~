@@ -251,6 +251,7 @@ list-style: url(images/setinha.png);
 font-size: 13px;
 line-height: 24px;
 float: left;
+margin: 0 50px 0 20px;
 }
 /* - - - - -  LAYOUT */
 h3 {
@@ -397,6 +398,12 @@ textarea.campo-contato {
 	box-shadow: inset 0px 1px 1px #B6B6B6;
 	border-radius: 5px;
 	background: #E6E6E6;
+}
+div#menu-pag {
+padding: 10px;
+margin: -2px 0 0 0;
+background: rgb(230, 230, 230);
+border-radius: 15px 0 15px 0;
 }
 /* - - - - -  FOOTER */
 #footer {
@@ -648,7 +655,6 @@ div.slider-wrap p { text-align: left; margin: 15px 0 }
 			position: relative;
 			overflow: hidden; 
 			margin: auto;
-			padding: 0 0 10px 0;
 			width: 100%; /* Also specified in  .stripViewer .panelContainer .panel  below */
 			clear: both;
 		}
@@ -669,7 +675,7 @@ div.slider-wrap p { text-align: left; margin: 15px 0 }
 		}
 		
 		.stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
-			padding: 10px;
+			padding: 0 10px;
 		}
 		
 		.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
