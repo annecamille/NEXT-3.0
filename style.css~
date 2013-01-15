@@ -66,10 +66,10 @@ div.read-more {
 }
 
 .site-name a {
-	font-size: 						26px;
-	font-family: 					trebuchet ms;
-	font-weight: 					normal;
-	color: 							#1bb9ba;
+	font-size: 30px;
+	font-family: trebuchet ms;
+	font-weight: bold;
+	color: #1bb9ba;
 }
 
 .site-description {
