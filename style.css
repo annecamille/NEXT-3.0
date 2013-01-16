@@ -53,9 +53,21 @@ a {
 	border: 						none;
 }
 div.read-more {
-	text-transform:					uppercase;
-	padding:						0 0 0 22px;
-	background:						url('images/plus.png') no-repeat 0;
+text-transform:	uppercase;
+float: left;
+height: 28px;
+padding: 8px 0 0 30px;
+width: 82px;
+font-size: 13px;
+background: url('images/btn-ver-mais.png') no-repeat 0;
+}
+div.read-more a{
+color: rgb(111, 111, 111);
+font-weight: bold;
+text-shadow: 1px 1px 0px rgb(226, 226, 226);
+}
+div.read-more a:hover{
+color: rgb(60, 60, 60);
 }
 #container {
 	padding:						0;
@@ -378,10 +390,9 @@ input.widget {
 	padding: 8px 0 8px 5px;
 }
 .navigation {
-	height: 						auto;
-	line-height: 					0px;
-	margin: 						0;
-	padding: 						0;
+	height: auto;
+	margin: 0;
+	padding: 0;
 }
 input.campo-contato {
 	width: 100%;
