@@ -155,6 +155,7 @@ border-radius:0px;
 font-size:13px;
 margin:0 0 20px;
 padding:0px;
+height: 561px;
 }
 div.home-widgets .widget-title-home, div.widget-title {
 	background: 					url('images/bg-wid-home.png') left;
@@ -186,7 +187,7 @@ div.widget_archive ul li a {
 	display:						none;
 }
 #widgets .tagcloud, #widgets .textwidget {
-	padding: 						3px;
+	padding: 0;
 }
 .col-60, .col-140, .col-220, .col-300, .col-380, .col-460, .col-540, .col-620, .col-700, .col-780, .col-860 {
 display: 							inline;
@@ -292,7 +293,7 @@ div.titulo {
 	color: #8F8F8F;
 	font-family: trebuchet ms;
 	font-weight: bold;
-	margin: 7px 0 0 0;
+	margin: 7px 0 20px 0;
 }
 h1 {
 	margin: 						10px 0 5px 0;
@@ -569,7 +570,17 @@ div.imagem-footer {
 		margin-top:40px;
 	}
 }
+
+
+@media screen and (max-width: 800px) {
+div.home-widgets .widget-wrapper {
+height: auto;
+}
+}
 @media screen and (max-width: 650px) {
+div.home-widgets .widget-wrapper {
+height: auto;
+}
 	#footer-wrapper {
 		padding: 50px 5px 0 5px;
 		font-size:	10px;
