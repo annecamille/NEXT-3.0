@@ -390,10 +390,9 @@ input.widget {
 	padding: 8px 0 8px 5px;
 }
 .navigation {
-	height: 						auto;
-	line-height: 					0px;
-	margin: 						0;
-	padding: 						0;
+	height: auto;
+	margin: 0;
+	padding: 0;
 }
 input.campo-contato {
 	width: 100%;
