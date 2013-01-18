@@ -228,8 +228,14 @@ a.rsswidget img {
 	display:						none;
 }
 #widgets ul li a {
-	display: 						block;
-	font-size: 						14px;
+	display:block;
+	font-size:13px;
+	color:#ec5454;
+}
+#widgets ul li span.post-date {
+color:#909090;
+font-size:11px;
+
 }
 div.widget-wrapper ul {
 	margin-left: 					0;
