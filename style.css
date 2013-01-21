@@ -301,7 +301,7 @@ div.icone-email, div.icone-busca {
 }
 div.icone-email {
 	background-color: #36C0C2;
-	background-position-x: 0;
+	-background-position-x: 0;
 	background-position-y: 133px;
 }
 div.icone-busca {
@@ -722,6 +722,7 @@ div.slider-wrap p { text-align: left; margin: 15px 0 }
 		
 		.stripNav ul { /* The auto-generated set of links */
 			list-style: none;
+margin: 0;
 		}
 		
 		.stripNav ul li {
