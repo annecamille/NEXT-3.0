@@ -137,6 +137,9 @@ h1.post-title a {
 h1.post-title a:hover {
 	color: 							#6F6F6F;
 }
+div.box {
+font-size: 13px;
+}
 /* - - - - -  WIDGET */
 #widgets {
 	margin-top: 					16px;
@@ -231,6 +234,9 @@ a.rsswidget img {
 	display:block;
 	font-size:13px;
 	color:#ec5454;
+}
+#widgets ul li a:hover {
+color: rgb (192,50,50);
 }
 #widgets ul li span.post-date {
 color:#909090;
