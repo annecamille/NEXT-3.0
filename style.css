@@ -142,6 +142,9 @@ font-size: 13px;
 }
 div.box h5 {
 margin: 10px 0;
+padding: 0 0 0 10px;
+color: rgb(226, 129, 6);
+background: url(images/list-style-image.gif) no-repeat 0;
 }
 /* - - - - -  WIDGET */
 #widgets {

@@ -140,6 +140,9 @@ h1.post-title a:hover {
 div.box {
 font-size: 13px;
 }
+div.box h5 {
+margin: 10px 0;
+}
 /* - - - - -  WIDGET */
 #widgets {
 	margin-top: 					16px;
