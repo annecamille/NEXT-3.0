@@ -45,7 +45,7 @@ if ( !defined('ABSPATH')) exit;
 				<div class="widget-wrapper">
 					<div class="mosaic-block cover">
 						<div class="mosaic-overlay" id="wikipedia"></div>
-						<a href="http://www.next.icict.fiocruz.br/wiki/" target="_blank" class="mosaic-backdrop">
+						<a href="http://www.wiki.next.icict.fiocruz.br/wiki/" target="_blank" class="mosaic-backdrop">
 							<div class="details">
 								<h4>WIKI DO NEXT</h4>
 								<p>O Wiki do Next &eacute; um projeto que visa criar um ambiente de colabora&ccedil;&atilde;o coletiva entre pesquisadores e experimentadores de Tecnologias Interativas. </p>
